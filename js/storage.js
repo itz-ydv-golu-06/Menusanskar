@@ -154,7 +154,7 @@ const SanskarDB = (() => {
   /* ------------------------ Theme ------------------------- */
 
   function getTheme() {
-    return localStorage.getItem(KEYS.THEME) || "light";
+    return localStorage.getItem(KEYS.THEME) || "dark";
   }
 
   function setTheme(theme) {
@@ -165,7 +165,7 @@ const SanskarDB = (() => {
 
   // NOTE: this is a lightweight front-end gate for a static demo
   // site, not real authentication — there is no server to guard.
-  const ADMIN_PASSWORD = "sanskar@grand";
+  const ADMIN_PASSWORD = "G@lu1805";
 
   function login(password) {
     if (password === ADMIN_PASSWORD) {
