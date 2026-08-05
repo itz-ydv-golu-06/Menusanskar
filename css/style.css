@@ -240,19 +240,17 @@ section { position: relative; padding: 110px 0; }
   letter-spacing: 0.02em;
 }
 .brand-mark {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid var(--gold-500);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--gold-300);
-  font-size: 1.1rem;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  background: var(--navy-900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 0;
+    background: transparent;
+
+    width: auto;
+    height: auto;
+    padding: 0;
 }
 /* Real logo image sits on top, filling the circular frame.
    If images/logo.png doesn't exist yet, onerror hides the <img>
