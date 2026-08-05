@@ -257,8 +257,8 @@ section { position: relative; padding: 110px 0; }
    and the "SG" text underneath shows through automatically —
    so the site never shows a broken-image icon. */
 .brand-logo-img{
-    width:60px;      /* Try 60–80px */
-    height:60px;
+    width:120px;      /* Try 60–80px */
+    height:120px;
     object-fit:contain;
     display:block;
 }
